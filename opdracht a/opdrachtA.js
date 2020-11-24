@@ -2,7 +2,13 @@
 //Arrays.
 //Lab 2.
 
-var weekdays = ['maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag','zondag'];//Alle weekdagen.
-console.log(weekdays.length);//Laat in de console zien hoeveel waardes in de array zitten.
+document.write('Alle dagen van de week zijn:')
+var weekDays = ['maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag','zondag'];//Alle weekdagen.
+weekLen = weekDays.length;
+for(i=0; i < weekLen; i++){
+    document.write("<br>" + "-" + weekDays[i]);
+}
 
-document.write("<h2>" + weekdays);
+
+
+
