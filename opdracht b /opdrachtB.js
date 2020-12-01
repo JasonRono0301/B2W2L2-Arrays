@@ -33,3 +33,13 @@ function vermenigvuldigen(){
 }
 
 vermenigvuldigen();//Om de functie aan te roepen.
+
+function delen(){
+    for(i=0; i <=9; i++){
+        var antwoord = arrayTwee[i] / arrayEen[i];//
+        document.write(arrayTwee[i] + '/' + arrayEen[i] + '=' + antwoord + "<br>");//Uitwerking van de opdracht.
+    }
+    document.write("<br>");
+}
+
+delen();//Om de functie aan te roepen.
